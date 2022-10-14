@@ -1,19 +1,19 @@
-## Mobile Restaurant Site
-A Scrimba exercise solo project. The goal was to create a mini site for a fiction restaurant with ability of ordering pizza, hamborgers and beer. All the healthy stuff you need.
+# Mobile Restaurant Site
+A Scrimba exercise solo project. The goal was to create a mini site for a fiction restaurant with ability of ordering pizza, hamburgers and beer. All the healthy stuff you need.
 
-# Requirements
+## Requirements
 - Follow the design spec (https://www.figma.com/file/Hdgwo69Dym9vVsxbuPbl0h/Mobile-Restaurant-Menu?node-id=0%3A1)
 - Render the menu options using JavaScript
 - Be able to add/remove items
 - Have a payment modal with compulsory from inputs
 
-# Hints
+## Hints
 - You can use an array method to iterate over the data and create HTML string for each menu item.
 - You can use a data-attribute to link a button to a menu item.
 - When an item is added to an order, you will need to push its object to an array of orders and iterate over that array to generate html string.
 - To remove an order, you will need to figure out the index of that menu item’s object in the array of orders.
 
-# Scrimba project id: ``co63a4397bb52f6608e43a5c3``  
+## Scrimba project id: ``co63a4397bb52f6608e43a5c3``  
 
 ## About Scrimba
 
