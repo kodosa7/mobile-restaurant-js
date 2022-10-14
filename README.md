@@ -1,6 +1,8 @@
 # Mobile Restaurant Site
 A Scrimba exercise solo project. The goal was to create a mini site for a fiction restaurant with ability of ordering pizza, hamburgers and beer. All the healthy stuff you need.
 
+![image](https://user-images.githubusercontent.com/57393100/195833240-e3a52557-5a9b-424d-a98a-b5b6d0879dd8.png)
+
 ## Requirements
 - Follow the design spec (https://www.figma.com/file/Hdgwo69Dym9vVsxbuPbl0h/Mobile-Restaurant-Menu?node-id=0%3A1)
 - Render the menu options using JavaScript
