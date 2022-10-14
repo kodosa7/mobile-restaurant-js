@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <!-- styles -->
+        <link rel="stylesheet" href="index.css">
+        <!-- font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Smythe&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <!-- <img src="images/header-img.png" alt="Hamburger picture"> -->
+                <h1 class="neon-text">Big Kay's Diner</h1>
+                <h3>The best burgers and pizza in town.</h3>
+            </header>
+            <main id="main-block">
+
+                <!-- meal box list -->
+                <div id="meal-box">
+                    <!-- inject single meal here -->
+                </div>
+
+                <!-- order box -->
+                <div id="order-box">
+                    <h2 id="your-order">Your order</h2>
+
+                    <div id="meal-row-container">
+                        <!-- inject single selected meal row here -->
+                    </div>
+
+                    <span id="order-horizontal-line"></span>
+
+                    <div id="total-price-row">
+                        <h4 id="total-price">
+                            Total price:
+                        </h4>
+                        <h4 id="current-total-price">
+                            <!-- inject total price here -->
+                        </h4>
+                    </div>
+
+                    <button data-complete="complete-btn" id="order-btn" class="order-btn">Complete order</button>
+                </div>
+
+                <!-- card details box -->
+                <div id="card-pop-up">
+                    <div id="pop-up-inner">
+                        <h2>Enter card details</h2>
+                        <form id="card-form" method="submit">
+                            <input
+                                type="text"
+                                name="name"
+                                maxlength="50"
+                                placeholder="Enter your name"
+                                aria-label="Your name"
+                                required />
+                            <input
+                                type="tel"
+                                inputmode="numeric"
+                                name="number"
+                                pattern="[0-9\s]{16}"
+                                size="16"
+                                maxlength="16"
+                                minlength="16"
+                                placeholder="Enter 16-digit card number"
+                                aria-label="16-digit card number"
+                                required />
+                            <input
+                                type="tel"
+                                inputmode="numeric"
+                                name="cvv"
+                                pattern="[0-9\s]{3}"
+                                size="3"
+                                minlength="3"
+                                maxlength="3"
+                                placeholder="CVV"
+                                aria-label="3-digit CVV number"
+                                required />
+            
+                            <button data-paybtn="pay-btn" type="submit" id="pay-btn" class="pay-btn">Pay</button>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- thanks box -->
+                <div id="thanks-box">
+                    
+                </div>
+
+            </main>
+
+            <footer>
+                <h4><span id="author-text">Made by ELS</span> | <a href="https://scrimba.com/learn/frontend">Scrimba Frontend Developer Carrier Path</a></h4>
+            </footer>
+            
+        </div>
+    	<script src="index.js" type="module"></script>
+    </body>
+</html>
+
